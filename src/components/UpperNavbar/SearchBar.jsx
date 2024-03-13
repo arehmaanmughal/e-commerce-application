@@ -7,9 +7,9 @@ const SearchBar = () => {
     <>
       <div >
         <Form >
-          <InputGroup className="border rounded-pill d-flex align-items-center ">
-          <Form.Select >
-          <optgroup className="border rounded">
+          <InputGroup className="border rounded-pill align-items-center ps-3">
+          <Form.Select className="text-grey border-0 p-0 select-category">
+          <optgroup className="">
           <option>All Category</option>
               <option value="1">One</option>
               <option value="2">Two</option>
@@ -17,13 +17,14 @@ const SearchBar = () => {
           </optgroup>
               
             </Form.Select>
-            <span className="text-secondary">|</span>
+            <span className="text-grey">|</span>
             <Form.Control
               placeholder="What you looking for?"
               type="text"
+              className="border-0 text-grey search-input"
             />
             
-            <Button className="btn rounded-pill text-white d-flex align-items-center justify-content-center" variant="outline-secondary">
+            <Button className="btn-search rounded-pill text-white d-flex align-items-center justify-content-center" variant="outline-secondary">
               <IoIosSearch/>
             </Button>
           </InputGroup>

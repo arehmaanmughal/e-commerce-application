@@ -7,8 +7,8 @@ const UpperNavbar = () => {
   return (
     <div>
       <Container>
-        <div className="small d-flex justify-content-between py-3 align-items-center">
-          <img src="src\assets\images\We-Have-FINAL 1.png"></img>
+        <div className="upper-navbar py-3 d-flex flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-between align-items-lg-center">
+          <img className="logo" src="src\assets\images\We-Have-FINAL 1.png"></img>
           <SearchBar />
         </div>
       </Container>

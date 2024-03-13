@@ -1,0 +1,19 @@
+.btn-category, .btn-login{
+    background-color: #0F75BC !important;
+}
+.btn-category{
+    
+    margin-top: -10px ;
+    height: 50px;
+    border-radius: 0 !important;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+.lower-navbar, .bg-orange{
+    background: #F7941D;
+
+}
+.primary{
+    background: none !important;
+    border: none !important;
+}
