@@ -1,0 +1,152 @@
+.sale-macbooks,
+.sale-accesseries,
+.smart-watch {
+  background: #f7f7f7 !important;
+}
+.img-side-banner {
+  height: 383px !important;
+}
+.img-macbook, .img-accessery{
+  width: 300px;
+  height: 150px;
+}
+
+.img-watch{
+  width: 200px;
+}
+.sale-tag {
+  background: #f7941d;
+  border-top-left-radius: 50rem;
+  border-bottom-left-radius: 50rem;
+  border-top-right-radius: 25rem;
+}
+
+.sale-up-to{
+  color: #7f7f7f;
+  font-size: 20px;
+}
+.text-blue {
+  color: #0f75bc;
+}
+
+.sale-item {
+  color: #7f7f7f;
+  font-size: 12px;
+}
+.sale-accesseries, .sale-macbooks{
+  line-height: 20px;
+}
+.smart-watch{
+  line-height: 30px;
+}
+.smart, .watches{
+  font-size: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .img-macbook, .img-accessery {
+    width: 60px;
+    height: 30px;
+  }
+  
+  .img-watch {
+    width: 200px !important;
+}
+.sale-tag{
+font-size: 8px;
+}
+.sale-item{
+font-size: 8px;
+}
+.sale-up-to{
+  font-size: 10px;
+}
+.smart-watch-title{
+  font-size: 8px;
+}
+.smart, .watches{
+  font-size: 12px;
+}
+.sale-accesseries, .sale-macbooks{
+  line-height: 11px;
+}
+.smart-watch{
+  line-height: 14px;
+}
+}
+@media screen  and (max-width : 400px) {
+  .img-watch {
+    width: 140px !important;
+}
+
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .img-macbook , .img-accessery{
+    width: 140px;
+    height: 70px;
+  }
+  
+  .img-watch {
+    width: 240px;
+}
+.smart-watch-title{
+  font-size: 12px;
+}
+.smart,.watches{
+  font-size: 14px;
+}
+.smart-watch{
+  line-height: 20px;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .img-macbook , .img-accessery{
+    width: 180px;
+    height: 90px;
+  }
+  
+  .img-watch {
+    width: 280px;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .img-side-banner {
+    height: 307px !important;
+}
+.img-macbook ,.img-accessery{
+  width: 154px;
+    height: 77px;
+}
+}
+
+
+.img-watch {
+  width: 259px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .img-side-banner {
+    height: 369px !important;
+}
+.img-macbook ,.img-accessery{
+  width: 228px;
+  height: 114px;
+}
+
+.img-watch {
+  width: 302px;
+}
+}
+@media screen and (min-width: 1400px) {
+  .img-side-banner {
+    height: 430px !important;
+}
+.img-accessery, .img-macbook {
+  width: 288px;
+    height: 144px;
+}
+
+.img-watch {
+  width: 358px;
+}
+}
