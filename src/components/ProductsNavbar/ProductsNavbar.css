@@ -1,0 +1,21 @@
+.nav-link{
+    border: none !important;
+    padding: 0 !important;
+    padding-right: 50px !important;
+    color: #7F7F7F !important;
+}
+.nav-link.active{
+    color: #F7941D !important;
+    
+
+}
+
+@media screen  and (max-width : 576px) {
+    .nav-link{
+       
+        /* font-size: 14px !important; */
+        padding-right: 10px !important;
+        
+    }
+  
+  }
