@@ -8,7 +8,7 @@ const Slider = () => {
       <div className="slider my-3 rounded-3">
         <Row className="align-items-center">
           <Col xs={4} className="">
-            <p className="slider-text ms-3">
+            <p className="slider-text">
               We Picked Every Item With Care,{" "}
               <span className="text-orange fw-bold">You Must Try</span> At least
               Once.

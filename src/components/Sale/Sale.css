@@ -1,3 +1,6 @@
+.sale-section {
+  margin-top: 1.5rem !important;
+}
 .sale-macbooks,
 .sale-accesseries,
 .smart-watch {
@@ -6,12 +9,13 @@
 .img-side-banner {
   height: 383px !important;
 }
-.img-macbook, .img-accessery{
+.img-macbook,
+.img-accessery {
   width: 300px;
   height: 150px;
 }
 
-.img-watch{
+.img-watch {
   width: 200px;
 }
 .sale-tag {
@@ -21,7 +25,7 @@
   border-top-right-radius: 25rem;
 }
 
-.sale-up-to{
+.sale-up-to {
   color: #7f7f7f;
   font-size: 20px;
 }
@@ -33,120 +37,136 @@
   color: #7f7f7f;
   font-size: 12px;
 }
-.sale-accesseries, .sale-macbooks{
+.sale-accesseries,
+.sale-macbooks {
   line-height: 20px;
 }
-.smart-watch{
+.smart-watch {
   line-height: 30px;
 }
-.smart, .watches{
+.smart,
+.watches {
   font-size: 30px;
 }
 
 @media screen and (max-width: 576px) {
-  .img-macbook, .img-accessery {
+  .img-macbook,
+  .img-accessery {
     width: 60px;
     height: 30px;
   }
-  
+
   .img-watch {
     width: 200px !important;
+  }
+  .sale-tag {
+    font-size: 8px;
+  }
+  .sale-item {
+    font-size: 8px;
+  }
+  .sale-up-to {
+    font-size: 10px;
+  }
+  .smart-watch-title {
+    font-size: 8px;
+  }
+  .smart,
+  .watches {
+    font-size: 12px;
+  }
+  .sale-accesseries,
+  .sale-macbooks {
+    line-height: 11px;
+  }
+  .smart-watch {
+    line-height: 14px;
+  }
 }
-.sale-tag{
-font-size: 8px;
-}
-.sale-item{
-font-size: 8px;
-}
-.sale-up-to{
-  font-size: 10px;
-}
-.smart-watch-title{
-  font-size: 8px;
-}
-.smart, .watches{
-  font-size: 12px;
-}
-.sale-accesseries, .sale-macbooks{
-  line-height: 11px;
-}
-.smart-watch{
-  line-height: 14px;
-}
-}
-@media screen  and (max-width : 400px) {
+@media screen and (max-width: 400px) {
   .img-watch {
-    width: 140px !important;
-}
-
+    width: 130px !important;
+  }
+  .smart-watch-title {
+    font-size: 6px;
+  }
+  .smart,
+  .watches {
+    font-size: 10px;
+  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
-  .img-macbook , .img-accessery{
+  .img-macbook,
+  .img-accessery {
     width: 140px;
     height: 70px;
   }
-  
+
   .img-watch {
     width: 240px;
-}
-.smart-watch-title{
-  font-size: 12px;
-}
-.smart,.watches{
-  font-size: 14px;
-}
-.smart-watch{
-  line-height: 20px;
-}
+  }
+  .smart-watch-title {
+    font-size: 12px;
+  }
+  .smart,
+  .watches {
+    font-size: 14px;
+  }
+  .smart-watch {
+    line-height: 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  .img-macbook , .img-accessery{
+  .img-macbook,
+  .img-accessery {
     width: 180px;
     height: 90px;
   }
-  
+
   .img-watch {
     width: 280px;
-}
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .img-side-banner {
     height: 307px !important;
-}
-.img-macbook ,.img-accessery{
-  width: 154px;
+  }
+  .img-macbook,
+  .img-accessery {
+    width: 154px;
     height: 77px;
+  }
 }
-}
-
 
 .img-watch {
-  width: 259px;
+  width: 243px;
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
   .img-side-banner {
     height: 369px !important;
-}
-.img-macbook ,.img-accessery{
-  width: 228px;
-  height: 114px;
-}
+  }
+  .img-macbook,
+  .img-accessery {
+    width: 228px;
+    height: 114px;
+  }
 
-.img-watch {
-  width: 302px;
-}
+  .img-watch {
+    width: 288px;
+  }
 }
 @media screen and (min-width: 1400px) {
   .img-side-banner {
     height: 430px !important;
-}
-.img-accessery, .img-macbook {
-  width: 288px;
+  }
+  .img-accessery,
+  .img-macbook {
+    width: 288px;
     height: 144px;
-}
+  }
 
-.img-watch {
-  width: 358px;
-}
+  .img-watch {
+    width: 344px;
+  }
 }

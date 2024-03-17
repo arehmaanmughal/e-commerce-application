@@ -4,7 +4,7 @@ import "./Sale.css";
 const Sale = () => {
   return (
     <div>
-      <Row>
+      <Row className="sale-section">
         <Col lg={8}>
           <Row className="gy-3">
             <Col className="">
@@ -13,11 +13,12 @@ const Sale = () => {
                   20%Off
                 </h6>
                 <ul className="pt-3 px-0">
-                  <li className="sale-up-to fw-bold"><span className="text-blue">Sale</span> up to</li>
+                  <li className="sale-up-to fw-bold">
+                    <span className="text-blue">Sale</span> up to
+                  </li>
                   <li className="sale-item fw-bold">All Macbooks</li>
                 </ul>
-                
-      
+
                 <img className="img-macbook" src="\image 3.png" alt="" />
               </div>
             </Col>
@@ -27,20 +28,28 @@ const Sale = () => {
                   20%Off
                 </h6>
                 <ul className="pt-3 px-0">
-                  <li className="sale-up-to fw-bold"><span className="text-blue">Sale</span> up to</li>
+                  <li className="sale-up-to fw-bold">
+                    <span className="text-blue">Sale</span> up to
+                  </li>
                   <li className="sale-item fw-bold">All Macbooks</li>
                 </ul>
-                <img className="img-accessery" src="\image accesery.png" alt="" />
+                <img
+                  className="img-accessery"
+                  src="\image accesery.png"
+                  alt=""
+                />
               </div>
             </Col>
           </Row>
           <Row className="">
             <Col>
-              <div className="smart-watch rounded-3 d-flex align-items-center mt-3 ps-3">
+              <div className="smart-watch rounded-3 d-flex align-items-center mt-4 ps-3">
                 <img className="img-watch" src="\Rectangle 24.png" alt="" />
                 <div className="smart-watch-sale-details">
                   <ul>
-                    <li className="fw-bold smart-watch-title">Find the best watch for you!</li>
+                    <li className="fw-bold smart-watch-title">
+                      Find the best watch for you!
+                    </li>
                     <li className="text-blue smart fw-bold">Smart</li>
                     <li className="text-orange watches fw-bold">Watches</li>
                   </ul>
@@ -51,11 +60,7 @@ const Sale = () => {
         </Col>
         <Col className="d-none d-lg-flex">
           <div className="side-banner rounded-3">
-            <img
-              className="img-side-banner"
-              src="\Rectangle 23.png"
-              alt=""
-            />
+            <img className="img-side-banner" src="\Rectangle 23.png" alt="" />
           </div>
         </Col>
       </Row>

@@ -11,22 +11,37 @@
 }
 .slider-text {
   font-size: 30px;
+  margin-left: 1rem;
 }
 .btn-collection {
   background-color: #0f75bc;
   padding: 10px 20px;
 }
 
-@media screen and (max-width: 576px) {
+@media (min-width : 400px) and (max-width: 576px) {
   .slider-img {
     height: 150px !important;
   }
   .slider-text {
-    font-size: 8px;
+    font-size: 9px;
+    margin-bottom: 0;
   }
   .btn-collection {
     font-size: 6px;
     padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .slider-img {
+    height: 130px !important;
+  }
+  .slider-text {
+    font-size: 8px;
+    margin-bottom: 0;
+  }
+  .btn-collection {
+    font-size: 5px;
+    padding: 4px 8px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
