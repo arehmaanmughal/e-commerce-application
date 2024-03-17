@@ -17,7 +17,7 @@ const SearchBar = () => {
           </optgroup>
               
             </Form.Select>
-            <span className="text-grey">|</span>
+            <span className="text-grey divider">|</span>
             <Form.Control
               placeholder="What you looking for?"
               type="text"

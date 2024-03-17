@@ -1,38 +1,51 @@
-.btn-search{
-    background-color: #F7941D !important;
-    padding: 12px 20px !important;
-    border: none !important;
+.btn-search {
+  background-color: #f7941d !important;
+  padding: 12px 20px !important;
+  border: none !important;
 }
-.select-category{
+.select-category {
+  width: 130px !important;
+  font-size: 14px !important;
+}
+.search-input {
+  width: 200px !important;
+  font-size: 14px !important;
+}
+.text-grey {
+  color: #7f7f7f !important;
+}
+.form-select {
+  background-size: 46px 11px !important;
+}
+
+@media screen and (max-width: 576px) {
+  .select-category,
+  .search-input {
+    font-size: 9px !important;
+  }
+  .select-category {
+    width: 80px !important;
+  }
+  .search-input {
     width: 130px !important;
-    font-size: 14px !important;
-    
-}
-.search-input{
-    width: 200px !important;
-    font-size: 14px !important;
-}
-.text-grey{
-    color: #7F7F7F !important;
-
-}
-@media screen and (max-width : 576px) {
-    .select-category, .search-input{
-        font-size: 10px !important;
-    }
-    .select-category{
-        width: 100px !important;
-    }
-    .search-input{
-        width: 150px !important;
-    }
-    .logo{
-        margin-bottom: 10px;
-    }
+  }
+  .logo {
+    margin-bottom: 10px;
+  }
+  .btn-search {
+    padding: 6px !important;
+  }
+  .form-select {
+    background-size: 9px !important;
+  }
+  .divider {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
 }
 
-@media (min-width : 576px) and (max-width : 768px) {
-    .logo{
-        margin-bottom: 10px;
-    }
+@media (min-width: 576px) and (max-width: 768px) {
+  .logo {
+    margin-bottom: 10px;
+  }
 }

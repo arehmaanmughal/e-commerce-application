@@ -1,14 +1,12 @@
 .product-card{
     width: 250px !important;
-    flex: none !important;
+    
 }
 
 .p-image{
     height: 150px;
 }
-.p-title{
 
-}
 .p-series, .p-price{
     font-weight: 500;
     font-size: 17px;

@@ -30,48 +30,45 @@ const LowerNavbar = () => {
             </Dropdown.Menu>
           </Dropdown>
           <Nav className="d-none mx-auto d-xl-flex align-items-xl-center ">
-            <NavLink>
-              <Link to="/" className="text-white pe-2">
-                Home
-              </Link>
-            </NavLink>
+            <Link to="/" className="text-white pe-3">
+              Home
+            </Link>
+
             <span className="text-white">|</span>
-            <NavLink>
-              <Link to="/About" className="text-white px-2">
-                About
-              </Link>
-            </NavLink>
+
+            <Link to="/About" className="text-white px-3">
+              About
+            </Link>
+
             <span className="text-white">|</span>
-            <NavLink>
-              <Link to="/ShopNow" className="text-white px-2">
-                Shop Now
-              </Link>
-            </NavLink>
+
+            <Link to="/ShopNow" className="text-white px-3">
+              Shop Now
+            </Link>
+
             <span className="text-white">|</span>
-            <NavLink>
-              <Link to="/FlashDeals" className="text-white px-2">
-                Flash Deals
-              </Link>
-            </NavLink>
+
+            <Link to="/FlashDeals" className="text-white px-3">
+              Flash Deals
+            </Link>
+
             <span className="text-white">|</span>
-            <NavLink>
-              <Link to="/DailyDeals" className="text-white px-2">
-                Daily Deals
-              </Link>
-            </NavLink>
+
+            <Link to="/DailyDeals" className="text-white px-3">
+              Daily Deals
+            </Link>
+
             <span className="text-white">|</span>
-            <NavLink>
-              <Link to="/Contact" className="text-white ps-2">
-                Contact
-              </Link>
-            </NavLink>
+
+            <Link to="/Contact" className="text-white ps-3">
+              Contact
+            </Link>
           </Nav>
           <Nav className="d-none d-sm-flex">
-            <NavLink className="py-1">
-              <Link to="/Signup" className="text-white">
-                Create an account?
-              </Link>
-            </NavLink>
+            <Link to="/Signup" className="text-white pe-3 py-1">
+              Create an account?
+            </Link>
+
             <button className="btn-login rounded-pill px-3 py-1 border-0">
               <Link to="/Login" className="text-white">
                 Login Account

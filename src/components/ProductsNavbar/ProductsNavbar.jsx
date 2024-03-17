@@ -7,18 +7,7 @@ import TopSelling from "../TopSelling/TopSelling";
 import "./ProductsNavbar.css";
 
 const ProductsNavbar = () => {
-  // const [newArrivals, setNewArrivals] = useState({
-  //   state : true,
-  //   color : "orange"
-  // });
-  // const [featured, setFeatured] = useState({
-  //   state : false,
-  //   color : "grey"
-  // });
-  // const [topSelling, setTopSelling] = useState({
-  //   state : false,
-  //   color : "grey"
-  // });
+  
   return (
     <div>
       <Tabs defaultActiveKey="newarrivals" className="pb-1 pt-3">
@@ -36,9 +25,6 @@ const ProductsNavbar = () => {
           <TopSelling />
         </Tab>
       </Tabs>
-      {/* {newArrivals.state ? <NewArrivals /> : null}
-      {featured.state ? <Featured /> : null}
-      {topSelling.state ? <TopSelling /> : null} */}
     </div>
   );
 };
