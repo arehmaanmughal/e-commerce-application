@@ -12,21 +12,11 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/images/watch.png",
+        "src/assets/images/watch.png",
 
-        
-      ],
-    },
-    {
-      title: "watch",
-      series: "Apple Series 8",
-      price: 2438,
-      description:
-        "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
-      images: [
-        "public/images/watch.png",
+        "src/assets/images/watch2.png",
 
-        
+        "src/assets/images/watch4.png",
       ],
     },
     {
@@ -36,7 +26,11 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/images/watch.png",
+        "src/assets/images/watch4.png",
+
+        "src/assets/images/watch.png",
+
+        "src/assets/images/watch2.png",
       ],
     },
     {
@@ -46,7 +40,11 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/images/watch.png",
+        "src/assets/images/watch.png",
+
+        "src/assets/images/watch2.png",
+
+        "src/assets/images/watch4.png",
       ],
     },
     {
@@ -56,7 +54,11 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/images/watch.png",
+        "src/assets/images/watch.png",
+
+        "src/assets/images/watch2.png",
+
+        "src/assets/images/watch4.png",
       ],
     },
     {
@@ -66,7 +68,11 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/images/watch.png",
+        "src/assets/images/watch.png",
+
+        "src/assets/images/watch2.png",
+
+        "src/assets/images/watch4.png",
       ],
     },
     {
@@ -75,10 +81,13 @@ const NewArrivals = () => {
       price: 2438,
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
-        images: [
-          "public/images/watch.png",
-        ],
-      
+      images: [
+        "src/assets/images/watch.png",
+
+        "src/assets/images/watch2.png",
+
+        "src/assets/images/watch4.png",
+      ],
     },
     {
       title: "watch",
@@ -87,7 +96,25 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/images/watch.png",
+        "src/assets/images/watch.png",
+
+        "src/assets/images/watch2.png",
+
+        "src/assets/images/watch4.png",
+      ],
+    },
+    {
+      title: "watch",
+      series: "Apple Series 8",
+      price: 2438,
+      description:
+        "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
+      images: [
+        "src/assets/images/watch.png",
+
+        "src/assets/images/watch2.png",
+
+        "src/assets/images/watch4.png",
       ],
     },
   ]);
@@ -105,14 +132,14 @@ const NewArrivals = () => {
                 >
                   <button
                     className="btn-back border-0 bg-white p-0"
-                    onClick={() => {console.log(index)}}
+                    
                   >
                     <IoIosArrowBack />
                   </button>
                   <img className="p-image" src={img} />
                   <button
                     className="btn-forword border-0 bg-white p-0"
-                    onClick={() => {console.log(index)}}
+                    
                   >
                     <IoIosArrowForward />
                   </button>
