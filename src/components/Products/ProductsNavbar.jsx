@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Nav, NavLink, Tab, Tabs } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import NewArrivals from "../NewArivals/NewArrivals";
-import Featured from "../Featured/Featured";
-import TopSelling from "../TopSelling/TopSelling";
+import NewArrivals from "./Proctucts/NewArrivals";
+
 import "./ProductsNavbar.css";
+import Featured from "./Proctucts/Featured";
+import TopSelling from "./Proctucts/TopSelling";
 
 const ProductsNavbar = () => {
   
