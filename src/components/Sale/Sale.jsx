@@ -18,7 +18,7 @@ const Sale = () => {
                 </ul>
                 
       
-                <img className="img-macbook" src="public\image 3.png" alt="" />
+                <img className="img-macbook" src="\image 3.png" alt="" />
               </div>
             </Col>
             <Col>
@@ -30,14 +30,14 @@ const Sale = () => {
                   <li className="sale-up-to fw-bold"><span className="text-blue">Sale</span> up to</li>
                   <li className="sale-item fw-bold">All Macbooks</li>
                 </ul>
-                <img className="img-accessery" src="public\image accesery.png" alt="" />
+                <img className="img-accessery" src="\image accesery.png" alt="" />
               </div>
             </Col>
           </Row>
           <Row className="">
             <Col>
               <div className="smart-watch rounded-3 d-flex align-items-center mt-3 ps-3">
-                <img className="img-watch" src="public\Rectangle 24.png" alt="" />
+                <img className="img-watch" src="\Rectangle 24.png" alt="" />
                 <div className="smart-watch-sale-details">
                   <ul>
                     <li className="fw-bold smart-watch-title">Find the best watch for you!</li>
@@ -53,7 +53,7 @@ const Sale = () => {
           <div className="side-banner rounded-3">
             <img
               className="img-side-banner"
-              src="public\Rectangle 23.png"
+              src="\Rectangle 23.png"
               alt=""
             />
           </div>

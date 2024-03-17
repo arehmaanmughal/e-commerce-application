@@ -12,7 +12,7 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/watch.png",
+        "/watch.png",
 
         
       ],
@@ -24,7 +24,7 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/watch.png",
+        "/watch.png",
       ],
     },
     {
@@ -34,7 +34,7 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/watch.png",
+        "/watch.png",
       ],
     },
     {
@@ -44,7 +44,7 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/watch.png",
+        "/watch.png",
       ],
     },
     {
@@ -54,7 +54,7 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/watch.png",
+        "/watch.png",
       ],
     },
     {
@@ -64,7 +64,7 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/watch.png",
+        "/watch.png",
       ],
     },
     {
@@ -74,7 +74,7 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/watch.png",
+        "/watch.png",
       ],
     },
     {
@@ -84,7 +84,7 @@ const NewArrivals = () => {
       description:
         "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
       images: [
-        "public/watch.png",
+        "/watch.png",
       ],
     },
   ]);

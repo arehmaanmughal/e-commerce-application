@@ -20,7 +20,7 @@ const Slider = () => {
           <Col xs={8}>
             <img
               className="slider-img"
-              src="public\Rectangle 17.png"
+              src="\Rectangle 17.png"
             ></img>
           </Col>
         </Row>
