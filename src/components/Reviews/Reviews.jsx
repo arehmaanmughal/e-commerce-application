@@ -34,7 +34,7 @@ const Reviews = () => {
       <h1 className="reviews-heading">Our Latest Reviews</h1>
       <Row className="gy-4">
         {users.map((user, index) => (
-          <Col sm={12} lg={6} className="" key={index}>
+          <Col sm={12} md={6} className="" key={index}>
             <div className="user-review-section d-flex flex-column align-items-center px-5 py-3">
                 <li className="user-image">
                     <img src={user.imageurl}></img>
