@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { Nav, NavLink, Tab, Tabs } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Tab, Tabs } from "react-bootstrap";
 import NewArrivals from "./Proctucts/NewArrivals";
 
 import "./ProductsNavbar.css";
@@ -15,7 +14,7 @@ const ProductsNavbar = () => {
         <Tab
           eventKey="newarrivals"
           title="New Arrivals"
-          style={{border:'none'}}
+          className="border-0"
         >
           <NewArrivals />
         </Tab>

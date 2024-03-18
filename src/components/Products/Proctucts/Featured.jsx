@@ -67,27 +67,8 @@ const Featured = () => {
       images: [
         "/watch.png",
       ],
-    },
-    {
-      title: "watch",
-      series: "Apple Series 8",
-      price: 2438,
-      description:
-        "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
-      images: [
-        "/watch.png",
-      ],
-    },
-    {
-      title: "watch",
-      series: "Apple Series 8",
-      price: 2438,
-      description:
-        "Apple Watch Series 8 features temperature sensing for insights into women's health, Car Crash Detection, and sleep stages to understand your sleep.",
-      images: [
-        "/watch.png",
-      ],
-    },
+    }
+    
   ]);
 
   return (

@@ -1,0 +1,30 @@
+.reviews-heading{
+    font-size: 35px !important;
+    font-weight: 600;
+}
+.user-review-section{
+    background: #F7F7F7;
+    
+}
+.user-name{
+    font-size: 22px;
+    font-weight: 600;
+}
+.user-review{
+    font-size: 15px;
+    line-height: 20px;
+    color: #7F7F7F;
+}
+.review-date{
+    font-size: 13px;
+    font-weight: 400;
+    color: #7F7F7F;
+    padding-top: 10px;
+}
+.btn-arrow-left, .btn-arrow-right{
+    background: none !important;
+    color: #F7941D !important;
+}
+.slide-btns{
+    width: 10%;
+}
