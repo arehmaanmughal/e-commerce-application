@@ -1,0 +1,33 @@
+.company-details{
+    width: 50%;
+}
+.company-overview{
+    color : #7F7F7F;
+    text-align: center;
+    line-height: 20px;
+}
+.get-expert-tips-text-small{
+    color : #484444;
+}
+.get-expert-tips-text-large{
+    color : #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer-email{
+    border: none;
+}
+.email-bar{
+    width: 30%;
+}
+
+@media screen and (max-width : 576px) {
+    .company-details{
+        width: 80%;
+    }
+}
+@media (min-width : 576px) and (max-width : 768px) {
+    .company-details{
+        width: 70%;
+    }
+}

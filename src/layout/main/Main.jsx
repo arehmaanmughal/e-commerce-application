@@ -11,6 +11,7 @@ import Reviews from "../../components/Reviews/Reviews";
 const Main = () => {
   return (
     <>
+      <div className="border-bottom">
       <Container>
         <Slider />
         <Sale />
@@ -19,6 +20,8 @@ const Main = () => {
         <SaleBanner/>
         <Reviews/>
       </Container>
+      </div>
+
     </>
   );
 };

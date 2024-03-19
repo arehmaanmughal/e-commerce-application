@@ -2,31 +2,44 @@
     font-size: 35px !important;
     font-weight: 600;
 }
-.user-review-section{
-    background: #F7F7F7;
-    
-}
+
 .user-name{
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 700;
+    margin: 0;
 }
 .user-review{
     font-size: 15px;
     line-height: 20px;
     color: #7F7F7F;
+    margin: 0;
 }
 .review-date{
     font-size: 13px;
     font-weight: 400;
     color: #7F7F7F;
     padding-top: 10px;
+    margin: 0;
 }
 .btn-arrow-left, .btn-arrow-right{
     background: none !important;
+    color: #7F7F7F !important;
+    border: none !important;
+    font-size: 26px !important;
+}
+
+.clicked{
     color: #F7941D !important;
 }
-.slide-btns{
-    width: 10%;
+
+
+.slick-slide{
+    margin: 0;
+    background: #F7F7F7;
+    padding: 20px 30px;
+}
+.slick-current{
+    border-right: 3px solid #F7941D;
 }
 
 @media screen and (max-width : 576px) {
@@ -34,21 +47,90 @@
         font-size: 20px !important;
     }
     .user-name{
-        font-size: 14px;
-        font-weight: 600;
+        font-size: 16px;
+        
+        
     }
     .user-review{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 14px;
-        color: #7F7F7F;
+        
     }
     .review-date{
-        font-size: 8px;
-        font-weight: 400;
-        color: #7F7F7F;
+        font-size: 10px;
+        
+        
         padding-top: 10px;
     }
-    .slide-btns{
-        width: 20%;
+    
+    
+}
+
+@media (min-width : 576px) and (max-width : 768px) {
+    .reviews-heading{
+        font-size: 22px !important;
     }
+    .user-name{
+        font-size: 18px;
+       
+        
+    }
+    .user-review{
+        font-size: 16px;
+        line-height: 16px;
+        
+        
+    }
+    .review-date{
+        font-size: 12px;
+        
+        
+        padding-top: 10px;
+    }
+    
+    
+}
+
+@media (min-width : 768px) and (max-width : 992px) {
+    .reviews-heading{
+        font-size: 24px !important;
+    }
+    .user-name{
+        font-size: 20px;
+       
+        
+    }
+    .user-review{
+        font-size: 16px;
+        line-height: 16px;
+        
+    
+    }
+    .review-date{
+        font-size: 12px;
+        
+        
+        padding-top: 10px;
+    }
+    
+    
+}
+
+@media (min-width : 992px) and (max-width : 1200px) {
+    .reviews-heading{
+        font-size: 26px !important;
+    }
+    .user-name{
+        font-size: 20px;
+    }
+    .user-review{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .review-date{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    
+    
 }
