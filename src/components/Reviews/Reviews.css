@@ -33,12 +33,12 @@
 }
 
 
-.slick-slide{
+.review-section .slick-slide{
     margin: 0;
     background: #F7F7F7;
     padding: 20px 30px;
 }
-.slick-current{
+.review-section .slick-current{
     border-right: 3px solid #F7941D;
 }
 

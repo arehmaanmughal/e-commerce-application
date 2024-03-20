@@ -6,6 +6,15 @@ import Navbar from "react-bootstrap/Navbar";
 import "./LowerNavbar.css";
 import { Link } from "react-router-dom";
 import { RiMenu3Line } from "react-icons/ri";
+import { CiLaptop } from "react-icons/ci";
+import { PiDeviceMobileLight } from "react-icons/pi";
+import { LiaHomeSolid } from "react-icons/lia";
+import { PiTelevisionSimpleThin } from "react-icons/pi";
+import { IoIosFitness } from "react-icons/io";
+import { GrGamepad } from "react-icons/gr";
+import { LuCable } from "react-icons/lu";
+import { BsFileLock } from "react-icons/bs";
+import { CgMenuLeftAlt } from "react-icons/cg";
 const LowerNavbar = () => {
   const [show, setShow] = useState(false);
 
@@ -19,14 +28,19 @@ const LowerNavbar = () => {
             <Button className="primary d-xl-none" onClick={handleShow}>
               <RiMenu3Line />
             </Button>
-            <Dropdown.Toggle className="btn-category">
-              All Categories
+            <Dropdown.Toggle className="btn-category py-0">
+             <span className="fs-3"><CgMenuLeftAlt /></span> All Categories
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+              <Dropdown.Item><Link className="category-link" to="./"><span><CiLaptop /></span> Laptop & Mac</Link></Dropdown.Item>
+              <Dropdown.Item><Link className="category-link" to="./"><span><PiDeviceMobileLight /></span> Mobile & Tablet</Link></Dropdown.Item>
+              <Dropdown.Item><Link className="category-link" to="./"><span><LiaHomeSolid /></span> Home & Devices</Link></Dropdown.Item>
+              <Dropdown.Item><Link className="category-link" to="./"><span><PiTelevisionSimpleThin /></span> TV & Audio</Link></Dropdown.Item>
+              <Dropdown.Item><Link className="category-link" to="./"><span><IoIosFitness /></span> Fitness</Link></Dropdown.Item>
+              <Dropdown.Item><Link className="category-link" to="./"><span><GrGamepad /></span> Game & Toys</Link></Dropdown.Item>
+              <Dropdown.Item><Link className="category-link" to="./"><span><LuCable /></span> Accessories</Link></Dropdown.Item>
+              <Dropdown.Item className="border-0"><Link className="category-link" to="./"><span><BsFileLock /></span> Security</Link></Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
           <Nav className="d-none mx-auto d-xl-flex align-items-xl-center ">

@@ -6,8 +6,12 @@
     text-align: center;
     line-height: 20px;
 }
+.get-expert-tips{
+    line-height: 10px;
+}
 .get-expert-tips-text-small{
     color : #484444;
+    
 }
 .get-expert-tips-text-large{
     color : #000;
@@ -16,18 +20,235 @@
 }
 .footer-email{
     border: none;
+    width: 100%;
 }
 .email-bar{
-    width: 30%;
+    width: 40%;
+    padding: 10px 0 10px 30px;
+}
+.btn-subscribe{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-container{
+    padding-top: 30px;
+}
+.footer-heading{
+    color: #F7941D;
+    font-size: 20px;
+    font-weight: 700;
+}
+.column{
+    line-height: 30px;
+    
+    width: 20% !important;
+}
+.footer-link{
+    color: #484444;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 13px;
 }
 
 @media screen and (max-width : 576px) {
     .company-details{
-        width: 80%;
+        width: 100%;
     }
+    .company-overview{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .get-expert-tips{
+        line-height: 5px;
+    }
+    .get-expert-tips-text-small{
+        font-size: 12px;
+        text-align: center; 
+    }
+    .get-expert-tips-text-large{
+        font-size: 14px;  
+    }
+    .email-bar{
+        width: 100%;
+        padding: 2px 2px 2px 10px;
+    }
+    .btn-subscribe{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .footer-email::placeholder{
+        font-size: 14px;
+    }
+    .column{
+        width: 100% !important;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+    .copyright{
+        
+        font-size: 10px;
+    }
+    
 }
 @media (min-width : 576px) and (max-width : 768px) {
     .company-details{
+        width: 80%;
+    }
+    .company-overview{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .get-expert-tips{
+        line-height: 5px;
+    }
+    .get-expert-tips-text-small{
+        font-size: 12px;
+        
+        margin-bottom: 0; 
+    }
+    .get-expert-tips-text-large{
+        font-size: 14px;
+       
+    }
+    .email-bar{
+        width: 50%;
+        padding: 2px 2px 2px 10px;
+    }
+    .btn-subscribe{
+        padding: 7px 14px;
+        font-size: 12px;
+    }
+    .footer-email::placeholder{
+        font-size: 14px;
+    }
+    .column{
+        width: 50% !important;
+    }
+}
+@media (min-width : 768px) and (max-width : 992px) {
+    .company-details{
         width: 70%;
+    }
+    .company-overview{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .get-expert-tips{
+        line-height: 7px;
+    }
+    .get-expert-tips-text-small{
+        font-size: 12px;
+        margin-bottom: 0; 
+    }
+    .get-expert-tips-text-large{
+        font-size: 16px;
+    }
+    .email-bar{
+        width: 45%;
+        padding: 2px 2px 2px 10px;
+    }
+    .btn-subscribe{
+        padding: 7px 14px;
+        font-size: 16px;
+    }
+    .footer-email::placeholder{
+        font-size: 14px;
+    }
+    .column{
+        width: 33.33% !important;
+    }
+}
+@media (min-width : 992px) and (max-width : 1200px) {
+    .company-details{
+        width: 60%;
+    }
+    .company-overview{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .get-expert-tips{
+        line-height: 7px;
+    }
+    .get-expert-tips-text-small{
+        font-size: 14px;
+        margin-bottom: 0; 
+    }
+    .get-expert-tips-text-large{
+        font-size: 18px;
+    }
+    .email-bar{
+        width: 40%;
+        padding: 2px 2px 2px 15px;
+    }
+    .btn-subscribe{
+        padding: 7px 14px;
+        font-size: 16px;
+    }
+    .footer-email::placeholder{
+        font-size: 16px;
+    }
+}
+@media (min-width : 1200px) and (max-width : 1400px) {
+    .company-details{
+        width: 50%;
+    }
+    .company-overview{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .get-expert-tips{
+        line-height: 12px;
+    }
+    .get-expert-tips-text-small{
+        font-size: 16px;
+        margin-bottom: 0; 
+    }
+    .get-expert-tips-text-large{
+        font-size: 20px;
+    }
+    .email-bar{
+        width: 40%;
+        padding: 2px 2px 2px 20px;
+    }
+    .btn-subscribe{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .footer-email::placeholder{
+        font-size: 18px;
+    }
+}
+@media screen and  (min-width : 1400px) {
+    .company-details{
+        width: 50%;
+    }
+    .company-overview{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .get-expert-tips{
+        line-height: 14px;
+    }
+    .get-expert-tips-text-small{
+        font-size: 18px;
+        margin-bottom: 0; 
+    }
+    .get-expert-tips-text-large{
+        font-size: 22px;
+    }
+    .email-bar{
+        width: 40%;
+        padding: 2px 2px 2px 20px;
+    }
+    .btn-subscribe{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .footer-email::placeholder{
+        font-size: 20px;
     }
 }

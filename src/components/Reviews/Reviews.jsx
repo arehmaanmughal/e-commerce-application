@@ -74,7 +74,7 @@ const Reviews = () => {
     console.log(backwardClicked);
   };
   return (
-    <div className="pb-3">
+    <div className="pb-3 review-section">
       <p className="reviews-heading text-center">Our Latest Reviews</p>
       <div className="slider-container">
         <Slider ref={(slider) => setSliderRef(slider)} {...settings}>

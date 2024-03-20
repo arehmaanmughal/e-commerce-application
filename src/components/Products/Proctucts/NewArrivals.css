@@ -1,6 +1,6 @@
 .product-card{
     width: 250px !important;
-    
+    position: relative;
 }
 
 .p-image{
@@ -17,6 +17,17 @@
     font-size: 11px;
     color : #7F7F7F;
     padding-top: 5px;
+}
+.btn-back{
+    position: absolute;
+    top: 60px;
+    background: none !important;
+}
+.btn-forword{
+    position: absolute;
+    top: 60px;
+    right: 31px;
+    background: none !important;
 }
 
 @media screen  and (max-width : 400px) {

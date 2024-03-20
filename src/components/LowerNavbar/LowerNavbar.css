@@ -8,6 +8,7 @@
     border-radius: 0 !important;
     border-top-right-radius: 10px !important;
     border-top-left-radius: 10px !important;
+    
 }
 
 .lower-navbar, .bg-orange{
@@ -17,6 +18,18 @@
 .primary{
     background: none !important;
     border: none !important;
+}
+.category-link{
+    color : #555151;
+    
+}
+.dropdown-item{
+    border-bottom: 1px solid #D9D9D9 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.dropdown-toggle::after{
+    display: none !important;
 }
 @media screen and (max-width: 576px) {
     .btn-category{
