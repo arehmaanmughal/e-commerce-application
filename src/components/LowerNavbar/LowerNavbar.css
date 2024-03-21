@@ -1,38 +1,40 @@
-.btn-category, .btn-login{
+.lower-navbar .btn-category,.lower-navbar .btn-login{
     background-color: #0F75BC !important;
+    
 }
-.btn-category{
+.lower-navbar .btn-categories{
     
     margin-top: -10px ;
     height: 50px;
     border-radius: 0 !important;
     border-top-right-radius: 10px !important;
     border-top-left-radius: 10px !important;
-    
+    border: 0;
 }
 
 .lower-navbar, .bg-orange{
     background: #F7941D;
 
 }
-.primary{
+.toggle-button{
     background: none !important;
     border: none !important;
 }
-.category-link{
+.lower-navbar .category-link{
     color : #555151;
     
 }
-.dropdown-item{
+.lower-navbar .dropdown-item{
     border-bottom: 1px solid #D9D9D9 !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
-.dropdown-toggle::after{
+.lower-navbar .dropdown-toggle::after{
     display: none !important;
 }
+
 @media screen and (max-width: 576px) {
-    .btn-category{
+    .lower-navbar .btn-categories{
         margin-top: -7px ;
         height: 43px; 
     }

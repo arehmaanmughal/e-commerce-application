@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
-import "./NewArrivals.css";
+import "./ProductsStyle.css";
 import Slider from "react-slick";
 const NewArrivals = () => {
   const [products, setProducts] = useState([

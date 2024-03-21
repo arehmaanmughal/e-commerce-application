@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { FaArrowRightLong } from "react-icons/fa6";
-import "./Slider.css";
-const Slider = () => {
+import "./Hero.css";
+const Hero = () => {
   return (
     <>
       <div className="slider my-3 rounded-3">
@@ -29,4 +29,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Hero;

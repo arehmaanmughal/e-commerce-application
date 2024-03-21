@@ -1,10 +1,10 @@
-.nav-link{
+.products .nav-link{
     border: none !important;
     padding: 0 !important;
     padding-right: 50px !important;
     color: #7F7F7F !important;
 }
-.nav-link.active{
+.products .nav-link.active{
     color: #F7941D !important;
     
 

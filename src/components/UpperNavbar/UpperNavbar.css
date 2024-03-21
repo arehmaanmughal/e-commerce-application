@@ -1,51 +1,112 @@
-.btn-search {
-  background-color: #f7941d !important;
-  padding: 12px 20px !important;
-  border: none !important;
+.upper-navbar .btn-primary,.upper-navbar .btn-primary:active, .upper-navbar .btn-primary:focus, .upper-navbar .btn-primary.show, .upper-navbar .btn-primary:checked{
+  background: none !important;
+  color: #7F7F7F !important;
+  border: 0 !important;
+  padding: 0 !important;
 }
-.select-category {
-  width: 130px !important;
-  font-size: 14px !important;
-}
-.search-input {
-  width: 200px !important;
-  font-size: 14px !important;
-}
-.text-grey {
-  color: #7f7f7f !important;
-}
-.form-select {
-  background-size: 46px 11px !important;
+.search-input{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: #7F7F7F;
 }
 
+.search-bar{
+  width: 40%;
+  gap: 10px;
+}
+.btn-search{
+  
+  padding: 10px 30px;
+}
+.divider{
+  color: #7F7F7F;
+}
+.upper-navbar .dropdown-toggle::after{
+  display: none !important;
+}
+.upper-navbar .dropdown-menu{
+  height: 300px !important;
+  overflow-y: scroll;
+  margin-top: 20px;
+  scrollbar-color: orange #7F7F7F;
+  scrollbar-width: thin;
+  
+
+}
+.upper-navbar .dropdown-menu:-webkit-scrollbar{
+  scrollbar-color: orange !important;
+  width: 5px;
+}
+.upper-navbar .nav-link{
+  font-size: 15px;
+  color: #7F7F7F;
+}
 @media screen and (max-width: 576px) {
-  .select-category,
-  .search-input {
-    font-size: 9px !important;
-  }
-  .select-category {
-    width: 80px !important;
-  }
-  .search-input {
-    width: 130px !important;
-  }
   .logo {
     margin-bottom: 10px;
   }
-  .btn-search {
-    padding: 6px !important;
+  .search-bar{
+    width: 100%;
+    gap: 2px;
   }
-  .form-select {
-    background-size: 9px !important;
+  .btn-search{
+    
+    padding: 5px 10px;
   }
-  .divider {
+  .search-input, .divider{
     font-size: 12px;
-    margin-bottom: 4px;
+  }
+  .upper-navbar .btn-primary{
+    font-size: 12px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
   .logo {
     margin-bottom: 10px;
+  }
+  .search-bar{
+    width: 80%;
+  }
+  .btn-search{
+    
+    padding: 10px 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .search-bar{
+    width: 60%;
+  }
+  .btn-search{
+    
+    padding: 10px 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .search-bar{
+    width: 50%;
+  }
+  .btn-search{
+    
+    padding: 10px 25px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .search-bar{
+    width: 40%;
+  }
+  .btn-search{
+    
+    padding: 10px 30px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .search-bar{
+    width: 40%;
+  }
+  .btn-search{
+    
+    padding: 10px 30px;
   }
 }

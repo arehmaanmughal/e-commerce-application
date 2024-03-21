@@ -25,10 +25,10 @@ const LowerNavbar = () => {
       <Navbar className="lower-navbar p-0">
         <Container>
           <Dropdown>
-            <Button className="primary d-xl-none" onClick={handleShow}>
+            <Button className="toggle-button d-xl-none" onClick={handleShow}>
               <RiMenu3Line />
             </Button>
-            <Dropdown.Toggle className="btn-category py-0">
+            <Dropdown.Toggle className="btn-categories py-0">
              <span className="fs-3"><CgMenuLeftAlt /></span> All Categories
             </Dropdown.Toggle>
 
@@ -78,7 +78,7 @@ const LowerNavbar = () => {
               Contact
             </Link>
           </Nav>
-          <Nav className="d-none d-sm-flex">
+          <Nav className="d-none d-xl-flex">
             <Link to="/Signup" className="text-white pe-3 py-1">
               Create an account?
             </Link>
@@ -92,8 +92,8 @@ const LowerNavbar = () => {
 
           <Offcanvas show={show} onHide={handleClose}>
             <Offcanvas.Header closeButton></Offcanvas.Header>
-            <Offcanvas.Body>
-              <Nav>
+            <Offcanvas.Body >
+              <Nav className="gap-4">
                 <NavLink>
                   <Link to="/" className="text-dark">
                     Home

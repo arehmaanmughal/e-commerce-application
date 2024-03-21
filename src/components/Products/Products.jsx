@@ -2,14 +2,14 @@ import React from "react";
 import { Tab, Tabs } from "react-bootstrap";
 import NewArrivals from "./Proctucts/NewArrivals";
 
-import "./ProductsNavbar.css";
+import "./Products.css";
 import Featured from "./Proctucts/Featured";
 import TopSelling from "./Proctucts/TopSelling";
 
-const ProductsNavbar = () => {
+const Products = () => {
   
   return (
-    <div>
+    <div className="products">
       <Tabs defaultActiveKey="newarrivals" className="pb-1 pt-3">
         <Tab
           eventKey="newarrivals"
@@ -29,4 +29,4 @@ const ProductsNavbar = () => {
   );
 };
 
-export default ProductsNavbar;
+export default Products;
