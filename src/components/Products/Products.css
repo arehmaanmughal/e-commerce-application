@@ -11,7 +11,7 @@
 }
 
 @media screen  and (max-width : 576px) {
-    .nav-link{
+    .products .nav-link{
        
         /* font-size: 14px !important; */
         padding-right: 10px !important;
