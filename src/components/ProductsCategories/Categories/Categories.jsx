@@ -31,7 +31,7 @@ const Categories = () => {
   return (
     <>
     <div className="pt-4">
-    <Row className="categories gy-4">
+    <Row className="product-categories gy-4">
         {categories.map((cat, index) => (
           <div className="category" key={index}>
             <div className="border rounded p-3">

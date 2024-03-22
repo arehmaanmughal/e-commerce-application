@@ -43,38 +43,38 @@ const LowerNavbar = () => {
               <Dropdown.Item className="border-0"><Link className="category-link" to="./"><span><BsFileLock /></span> Security</Link></Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-          <Nav className="d-none mx-auto d-xl-flex align-items-xl-center ">
-            <Link to="/" className="text-white pe-3">
+          <Nav className="d-none mx-auto d-xl-flex align-items-xl-center gap-4">
+            <Link to="/" className="text-white">
               Home
             </Link>
 
             <span className="text-white">|</span>
 
-            <Link to="/About" className="text-white px-3">
+            <Link to="/About" className="text-white">
               About
             </Link>
 
             <span className="text-white">|</span>
 
-            <Link to="/ShopNow" className="text-white px-3">
+            <Link to="/ShopNow" className="text-white">
               Shop Now
             </Link>
 
             <span className="text-white">|</span>
 
-            <Link to="/FlashDeals" className="text-white px-3">
+            <Link to="/FlashDeals" className="text-white">
               Flash Deals
             </Link>
 
             <span className="text-white">|</span>
 
-            <Link to="/DailyDeals" className="text-white px-3">
+            <Link to="/DailyDeals" className="text-white">
               Daily Deals
             </Link>
 
             <span className="text-white">|</span>
 
-            <Link to="/Contact" className="text-white ps-3">
+            <Link to="/Contact" className="text-white">
               Contact
             </Link>
           </Nav>

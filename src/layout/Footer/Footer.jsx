@@ -29,33 +29,33 @@ const Footer = () => {
             </div>
 
             <Row className='footer-container'>
-              <div className='column'>
+              <div className='social'>
                 <p className='footer-heading'>Social</p>
                 <li><Link className='footer-link' to="./"><span><PiInstagramLogoThin/></span> Instagram</Link></li>
                 <li><Link className='footer-link' to="./"><span><SlSocialFacebook/></span> Facebook</Link></li>
                 <li><Link className='footer-link' to="./"><span><CiTwitter/></span> Twitter</Link></li>
                 <li><Link className='footer-link' to="./"><span><CiYoutube/></span> Youtube</Link></li>
               </div>
-              <div className='column'>
+              <div className='contact'>
               <p className='footer-heading'>Contact</p>
               <li>Contact Us</li>
               <li>yourexample@email.com</li>
               <li>example@email.com</li>
               <li>Call us: +1 254 568-5643</li>
               </div>
-              <div className='column'>
+              <div className='information'>
               <p className='footer-heading'>Our Information</p>
               <li>Privacy policy update</li>
               <li>Terms & conditions</li>
               <li>Site Map</li>
               </div>
-              <div className='column'>
+              <div className='about'>
               <p className='footer-heading'>About</p>
               <li>About Us</li>
               <li>Customer Support</li>
               <li>Copyright</li>
               </div>
-              <div className='column'>
+              <div className='top-categories'>
               <p className='footer-heading'>Top Categories</p>
               <li>Men's Wear</li>
               <li>Men's Wear</li>

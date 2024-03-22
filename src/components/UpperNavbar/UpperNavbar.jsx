@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Dropdown, DropdownButton } from "react-bootstrap";
+import { Container, Dropdown } from "react-bootstrap";
 import "./UpperNavbar.css";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { IoIosSearch } from "react-icons/io";
@@ -13,7 +13,7 @@ const UpperNavbar = () => {
           <img className="logo" src="\We-Have-FINAL 1.png"></img>
           <div className="search-bar d-flex justify-content-between align-items-center border rounded-pill ps-3">
             <Dropdown>
-              <Dropdown.Toggle className="btn-category px-0" id="dropdown-basic">
+              <Dropdown.Toggle className="btn-category px-0">
                 All Category <span><MdOutlineKeyboardArrowDown/></span>
               </Dropdown.Toggle>
 

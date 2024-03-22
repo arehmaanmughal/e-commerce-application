@@ -5,41 +5,172 @@
     background-repeat: no-repeat;
     width : 100%;
     height: 500px;
-    
+    display: flex;
+    align-items: center;
+}
+.about-content{
+    width: 50%;   
+}
+.briefly-about-us{
+    font-size: 19px;
+    font-weight: 600;
+    color: #F7941D;
+    line-height: 0px;
+}
+.large-experience{
+    font-size: 66px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 80px;
+}
+.about-overview{
+    font-size: 19px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 22px;
+}
+.btn-consultation{
+    background-color: #0F75BC;
+    width: 228px;
+    height: 66px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
 }
 @media screen and (max-width:576px) {
     .about-hero{
-        height: 250px;
-        
+        height: 250px; 
+    }
+    .about-content{
+        width: 50%;   
+    }
+    .briefly-about-us{
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+    .large-experience{
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 8px;
+    }
+    .about-overview{
+        font-size: 8px;
+        line-height: 11px;
+        margin-bottom: 8px;
+    }
+    .btn-consultation{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+        line-height: 20px;
     }
 }
 @media (min-width:576px) and (max-width:768px) {
     .about-hero{
-        height: 300px;
-        
+        height: 350px; 
+    }
+    .about-content{
+        width: 50%;   
+    }
+    .briefly-about-us{
+        font-size: 14px;
+    }
+    .large-experience{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .about-overview{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .btn-consultation{
+        width: 140px;
+        height: 40px;
+        font-size: 11px;
+        line-height: 20px;
     }
 }
 @media (min-width:768px) and (max-width:992px) {
     .about-hero{
-        height: 400px;
-        
+        height: 400px; 
+    }
+    .about-content{
+        width: 50%;   
+    }
+    .briefly-about-us{
+        font-size: 15px;
+    }
+    .large-experience{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .about-overview{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .btn-consultation{
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 20px;
     }
 }
 @media (min-width:992px) and (max-width:1200px) {
     .about-hero{
-        height: 500px;
-        
+        height: 500px;   
+    }
+    .about-content{
+        width: 50%;   
+    }
+    .briefly-about-us{
+        font-size: 16px;
+    }
+    .large-experience{
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .about-overview{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .btn-consultation{
+        width: 210px;
+        height: 60px;
+        font-size: 17px;
+        line-height: 20px;
     }
 }
 @media (min-width:1200px) and (max-width:1400px) {
     .about-hero{
-        height: 600px;
-        
+        height: 600px; 
+    }
+    .about-content{
+        width: 50%;   
+    }
+    .briefly-about-us{
+        font-size: 17px;
+    }
+    .large-experience{
+        font-size: 66px;
+        line-height: 80px;
+    }
+    .about-overview{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .btn-consultation{
+        width: 228px;
+        height: 66px;
+        font-size: 17px;
+        line-height: 20px;
     }
 }
 @media screen and (min-width:1400px) {
     .about-hero{
-        height: 700px;
-        
+        height: 700px; 
+    }
+    .about-content{
+        width: 44%;
     }
 }
