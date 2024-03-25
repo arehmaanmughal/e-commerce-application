@@ -1,0 +1,114 @@
+.how-we-work-section{
+    min-height: 200px;
+    padding: 20px 0;
+}
+.how-we-work-header-section{
+    width: 50%;
+    margin: 0 auto;
+}
+.how-we-work-heading{ 
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 79.88px;
+}
+.how-we-work-overview{
+   
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.99px;
+    
+}
+.video-button{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    right: 50%;
+}
+.play-button{
+    border: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 46px;
+}
+.how-we-work-video{
+    height: 400px;
+}
+
+@media screen and (max-width:576px) {
+    .how-we-work-header-section{
+        width: 90%;
+    }
+    .how-we-work-heading{
+        font-size: 28px;
+        line-height: 14px;
+    }
+    .how-we-work-overview{
+        font-size: 10px;
+        line-height: 12.99px;  
+    }
+    .how-we-work-video{
+        height: 140px;
+    }
+    .video-button{
+        
+        left: 43%;
+        
+    }
+}
+@media (min-width:576px) and (max-width:768px) {
+    .how-we-work-header-section{
+        width: 80%;
+    }
+    .how-we-work-heading{
+        font-size: 50px;
+        line-height: 40px;
+    }
+    .how-we-work-overview{
+        font-size: 18px;
+        line-height: 20.99px;  
+    }
+    .how-we-work-video{
+        height: 270px;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .how-we-work-header-section{
+        width: 70%;
+    }
+    .how-we-work-heading{
+        font-size: 50px;
+        line-height: 40px;
+    }
+    .how-we-work-overview{
+        font-size: 18px;
+        line-height: 20.99px;  
+    }
+    .how-we-work-video{
+        height: 300px;
+    }
+      
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .how-we-work-header-section{
+        width: 60%;
+    }
+    .how-we-work-heading{
+        font-size: 56px;
+        line-height: 50px;
+    }
+    .how-we-work-overview{
+        font-size: 18px;
+        line-height: 20.99px;  
+    }
+    .how-we-work-video{
+        height: 350px;
+    }
+}
+@media (min-width:1200px) and (max-width:1400px) {
+    
+    
+    
+}
+@media screen and (min-width:1400px) {
+    
+}

@@ -1,33 +1,262 @@
+.why-us-section{
+    gap: 30px;
+    padding: 50px 0;
+}
 .why-us-heading{
     font-size: 66px;
     font-weight: 600;
     line-height: 80px;
 }
 .why-us-overview{
-    
     font-size: 19px;
     font-weight: 400;
     line-height: 22.99px;
     text-align: left;
     color: #484444;
-
 }
-.why-us-reason{
-    
+.why-us-reason{   
     font-size: 24px;
     font-weight: 600;
     line-height: 29.05px;
     color : #484444;
-
 }
 .tick-icon{
-    
-
-
+    width: 56px;
+    height: 56px;
+    font-size: 26px;
 }
 .no-of-categories{
-
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 20px
 }
 .our-categories{
-
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 10px;
+}
+@media screen and (max-width:576px) {
+    .why-us-section{
+        gap: 0;
+        padding: 20px 0;
+    }
+    .why-us-heading{
+        font-size: 24px;
+        line-height: 10px;
+    }
+    .why-us-overview{
+        font-size: 12px;
+        line-height: 16.99px;
+    }
+    .why-us-reason{   
+        font-size: 14px;
+        line-height: 10.05px;
+    }
+    .tick-icon{
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .numbers-img{
+        height: 40px;
+       
+    }
+    .no-of-categories{
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .our-categories{
+        font-size: 12px;
+        line-height: 0;
+    }
+    .numbers-section{
+        padding: 10px 0;
+        height: 285px;
+    }
+    .numbers-container{
+        padding: 20px 0;
+        
+    }
+}
+@media (min-width:576px) and (max-width:768px) {
+    .why-us-section{
+        gap: 0;
+        padding: 20px 0;
+    }
+    .why-us-heading{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .why-us-overview{
+        font-size: 17px;
+        line-height: 22.99px;
+    }
+    .why-us-reason{   
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+    .tick-icon{
+        width: 55px;
+        height: 55px;
+        font-size: 26px;
+    }
+    .no-of-categories{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .our-categories{
+        font-size: 18px;
+        line-height: 0;
+    }
+    .numbers-section{
+        padding: 20px 0;
+        height: 394px;
+    }
+    .numbers-container{
+        padding: 26px 0;
+        
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .why-us-section{
+        gap: 0;
+    }
+    .why-us-heading{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .why-us-overview{
+        font-size: 17px;
+        line-height: 22.99px;
+    }
+    .why-us-reason{   
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+    .tick-icon{
+        width: 55px;
+        height: 55px;
+        font-size: 26px;
+    }
+    .no-of-categories{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .our-categories{
+        font-size: 18px;
+        line-height: 0;
+    }
+    .numbers-section{
+        padding: 20px 0;
+        height: 394px;
+    }
+    .numbers-container{
+        padding: 26px 0;
+        
+    }
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .why-us-heading{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .why-us-overview{
+        font-size: 17px;
+        line-height: 22.99px;
+    }
+    .why-us-reason{   
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+    .tick-icon{
+        width: 52px;
+        height: 52px;
+        font-size: 26px;
+    }
+    .no-of-categories{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .our-categories{
+        font-size: 18px;
+        line-height: 0;
+    }
+    .numbers-section{
+        padding: 20px 0;
+        height: 394px;
+    }
+    .numbers-container{
+        padding: 26px 0;
+        
+    }
+}
+@media (min-width:1200px) and (max-width:1400px) {
+    .why-us-heading{
+        font-size: 66px;
+        line-height: 80px;
+    }
+    .why-us-overview{
+        font-size: 19px;
+        line-height: 22.99px;
+    }
+    .why-us-reason{   
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+    .tick-icon{
+        width: 56px;
+        height: 56px;
+        font-size: 26px;
+    }
+    .no-of-categories{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .our-categories{
+        font-size: 18px;
+        line-height: 0;
+    }
+    .numbers-section{
+        padding: 20px 0;
+        height: 398px;
+    }
+    .numbers-container{
+        padding: 26px 0;
+        
+    }
+}
+@media screen and (min-width:1400px) {
+    .why-us-heading{
+        font-size: 66px;
+        line-height: 80px;
+    }
+    .why-us-overview{
+        font-size: 19px;
+        line-height: 22.99px;
+    }
+    .why-us-reason{   
+        font-size: 24px;
+        line-height: 29.05px;
+    }
+    .tick-icon{
+        width: 56px;
+        height: 56px;
+        font-size: 26px;
+    }
+    .no-of-categories{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .our-categories{
+        font-size: 18px;
+        line-height: 0;
+    }
+    .numbers-section{
+        padding: 20px 0;
+        height: 398px;
+    }
+    .numbers-container{
+        padding: 26px 0;
+        
+    }
 }
