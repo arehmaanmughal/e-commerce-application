@@ -2,7 +2,7 @@ import React from 'react'
 import UpperNavbar from '../../components/UpperNavbar/UpperNavbar.jsx'
 import LowerNavbar from '../../components/LowerNavbar/LowerNavbar.jsx'
 
-const Index = () => {
+const Navbar = () => {
   return (
     <>
         <UpperNavbar/>
@@ -11,4 +11,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Navbar

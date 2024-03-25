@@ -1,11 +1,11 @@
 import React from "react";
-import Eader from "../Eader/Index.jsx"
+import Navbar from "../Navbar/Navbar.jsx"
 import Footer from "../Footer/Footer";
 const Layout = (props) => {
   return (
     <>
       <div>
-        <Eader />
+        <Navbar />
         {props.children}
         <Footer />
       </div>
