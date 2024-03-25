@@ -1,5 +1,5 @@
 import React from "react";
-import Header from '../Header/Index.jsx'
+import Header from "../Header/Index.jsx"
 import Footer from "../Footer/Footer";
 const Layout = (props) => {
   return (
