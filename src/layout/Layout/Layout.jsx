@@ -1,13 +1,13 @@
 import React from "react";
-// import Header from '../Header/Index.jsx'
-// import Footer from "../Footer/Footer";
+import Header from '../Header/Index.jsx'
+import Footer from "../Footer/Footer";
 const Layout = (props) => {
   return (
     <>
       <div>
-        {/* <Header /> */}
+        <Header />
         {props.children}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
