@@ -9,7 +9,7 @@ import { CiYoutube } from "react-icons/ci";
 const Footer = () => {
   return (
     <>
-      <div className='border-bottom'>
+      <div className='border-bottom border-top'>
         <Container className='py-4'>
             <div className='company-details mx-auto'>
               <div className='d-flex justify-content-center'>

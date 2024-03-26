@@ -1,0 +1,110 @@
+.our-parteners-section{
+    padding-bottom: 50px;
+}
+.our-parteners-header{
+    width: 60%;
+    margin: 0 auto;
+}
+.our-parteners-heading{
+    font-size: 66px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 80px;
+    margin: 0;
+}
+.our-parteners-overview{
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 100px;
+}
+.our-parteners-img{
+    width: 100%;
+}
+@media screen and (max-width : 576px) {
+    .our-parteners-section{
+        padding-bottom: 30px;
+    }
+    .our-parteners-header{
+        width: 100%;
+    }
+    
+    .our-parteners-heading{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .our-parteners-overview{
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0;
+    }
+    
+    
+}
+@media (min-width : 576px) and (max-width : 768px) {
+    .our-parteners-header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .our-parteners-heading{
+        font-size: 46px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 80px;
+        margin: 0;
+    }
+    .our-parteners-overview{
+        font-size: 19px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 25px;
+        margin: 0 50px;
+    }
+}
+@media (min-width : 768px) and (max-width : 992px) {
+    .our-parteners-header{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .our-parteners-heading{
+        font-size: 56px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 80px;
+        margin: 0;
+    }
+    .our-parteners-overview{
+        font-size: 19px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 25px;
+        margin: 0 50px;
+    }
+}
+@media (min-width : 992px) and (max-width : 1200px) {
+    .our-parteners-header{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .our-parteners-heading{
+        font-size: 66px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 80px;
+        margin: 0;
+    }
+    .our-parteners-overview{
+        font-size: 19px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 25px;
+        margin: 0 50px;
+    }
+}
+@media (min-width : 1200px) and (max-width : 1400px) {
+    
+}
+@media screen and (min-width : 1400px) {
+    
+}

@@ -19,7 +19,7 @@ const HowWeWork = () => {
   return (
     <div className='how-we-work-section bg-blue '>
         <Container>
-          <div className='how-we-work-header-section'>
+          <div className='how-we-work-header'>
             <p className='text-white text-center how-we-work-heading'>How We Work</p>
             <p className='text-white text-center how-we-work-overview'>You offer a good product, make advertising, analyze the market but still have no improvement?</p>
           </div>

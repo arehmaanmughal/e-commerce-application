@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Layout>
-        <div className="border-bottom">
+        
           <Container>
             <Hero />
             <Sale />
@@ -21,7 +21,7 @@ const Home = () => {
             <SaleBanner />
             <Reviews />
           </Container>
-        </div>
+        
       </Layout>
     </>
   );
